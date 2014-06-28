@@ -1,7 +1,18 @@
-$body-bg:     #34495e;
-$navbar-inverse-bg: #ecf0f1;
-$navbar-inverse-link-color:  #34495e;
-$brand-primary:  #2ecc71;
-$jumbotron-bg: #ecf0f1;
+@import url(http://fonts.googleapis.com/css?family=Handlee);
+
+$body-bg:     					#ecf0f1;
+$font-family-sans-serif:     'Lato', Helvetica, Arial, sans-serif;
+$navbar-default-bg: 			white;
+$navbar-default-link-color:   	#2ecc71;
+$brand-primary:  			  	#2ecc71;
+$jumbotron-bg: 				 	white;
 
 @import 'bootstrap';
+
+.center {
+	text-align: center;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
