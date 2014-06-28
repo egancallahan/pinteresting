@@ -13,11 +13,11 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 gem 'bootstrap-sass'
 
-group: development, :test do
+group :development, :test do
 	gem 'sqlite3'
 end
 
-group :produtiion do
+group :production do
 	gem 'pg'
 	gem 'rails_12factor'
 end
